@@ -12,27 +12,36 @@ CSI Hackathon - 2025.
 
 6. The seamless integration of APIs, PDF generation, and image processing to create an aesthetically pleasing and informative document has been displayed here, along with the method of sending it to interested readers.
 
-Brief Explanation
-This project automates the generation of a personalized newsletter titled "The AI Times". It involves:
+This project involves:
 
-Fetching trending news articles using the NewsAPI.
-Summarizing articles with concise descriptions for easy readability.
-Generating unique images related to the article titles using Worqhat API.
-Formatting the articles and images into a professional PDF using ReportLab.
-Sending the generated newsletter as an email attachment via SMTP.
+a. Fetching trending news articles using the NewsAPI. Summarizing articles with concise descriptions for easy readability.
+
+b. Generating unique images related to the article titles using Worqhat API. Formatting the articles and images into a professional PDF using ReportLab.
+
+c. Sending the generated newsletter as an email attachment via SMTP.
+
 Tools and Technologies Used
+
 Languages
-Python: The primary programming language for implementing logic and automation.
+a. Python: The primary programming language for implementing logic and automation.
+
 APIs
-NewsAPI: Fetches trending articles.
-Worqhat API: Generates AI-based images for each article.
+a. NewsAPI: Fetches trending articles.
+b. Worqhat API: Generates AI-based images for each article.
+
 Libraries
-requests: Makes API calls to fetch news and images.
-hashlib: Creates unique filenames for downloaded images.
-reportlab: Generates the formatted PDF newsletter.
-smtplib: Sends emails with attachments.
-pytz: Handles timezone-related functionalities.
-email: Manages email formatting and attachments.
+a. requests: Makes API calls to fetch news and images.
+
+b. hashlib: Creates unique filenames for downloaded images.
+
+c. reportlab: Generates the formatted PDF newsletter.
+
+d. smtplib: Sends emails with attachments.
+
+e. pytz: Handles timezone-related functionalities.
+
+f. email: Manages email formatting and attachments.
+
 Utilities
 Gmail App Password: Used for SMTP authentication to send emails.
 Setup Instructions
