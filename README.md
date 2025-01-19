@@ -1,5 +1,11 @@
 # CSI-Hackathon-2025
 CSI Hackathon - 2025.
+
+Problem Statement-
+To design a professional PDF newsletter, The AI Times, using Gen-AI and APIs to curate and feature trending news articles, providing a powerful tool for editors and publishers to streamline their journalism efforts and deliver impactful, engaging content to their audience.
+
+Brief Explanation of the Project-
+
 1. This Python project has been designed to generate a generalized PDF newsletter, The AI Times, featuring trending news articles.
 
 2. It will fetches news using the NewsAPI, categorizes articles by topic, and creates detailed summaries for each story. 
@@ -85,6 +91,7 @@ bash
 Copy
 Edit
 python main.py
+
 Commands and Execution
 Run the Script
 bash
